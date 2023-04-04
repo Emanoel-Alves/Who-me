@@ -1,0 +1,29 @@
+
+.animated{
+    border-right: 4px solid;
+    width: 15ch;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+    animation: blinking normal infinite .8s,  typing normal 3s steps(55) both;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blinking {
+    10% {
+      border-color: transparent;
+    }
+  }
+  
+  .img-border{
+    border:3px solid black;
+    float: left;
+    margin-right: 100px;
+    box-shadow: 6px 5px 3px #1070ff;
+  }
