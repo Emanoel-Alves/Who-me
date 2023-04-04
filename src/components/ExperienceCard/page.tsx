@@ -5,7 +5,9 @@ import { Card } from "./Card";
 export function ExperienceCard(){
     return (
         <>
-            <div className="container w-[50px] items-center flex justify-center">
+            <div className="container w-[50px] items-center flex justify-center grid grid-rows">
+                <Card />
+                <Card />
                 <Card />
             </div>
         </>

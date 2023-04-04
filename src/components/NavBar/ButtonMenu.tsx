@@ -1,5 +1,5 @@
 interface ButtonMenuProps {
-    nameMenu: String,
+    nameMenu: string,
     isActive?: boolean
 }
 
