@@ -16,13 +16,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body>
-        <div className='container relative p-20 flex justify-center'>
+        <div className='container flex flex-col h-screen pt-10 flex justify-center'>
           <NavBar/>
-          <div className="h-full relative">{children}</div>
+          <div >
+            <About />
+          </div>
         </div>
-        <div >
-          <About />
-        </div>
+        <div className="h-full relative">{children}</div>
+
         <div >
           <ExperienceCard />
         </div>
